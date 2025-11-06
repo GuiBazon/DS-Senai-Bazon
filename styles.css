@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+header {
+  background-color: #4caf50;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .logo img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+header .logo h1 {
+  margin-bottom: 5px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+main section {
+  margin-bottom: 40px;
+}
+
+#home {
+  background-color: #afd8de;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+#home h2 {
+  color: #00796b;
+}
+
+.eventos-container {
+  display: flex;
+  gap: 20px;
+}
+
+.evento-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  flex: 1;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+#registerForm {
+  /* Igual em todos */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  max-width: 400px;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="date"],
+input[type="datetime-local"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+
+select {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #abeaae;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: #f4f4f9;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  width: calc(100% - 20px);
+}
